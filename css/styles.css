@@ -1,5 +1,10 @@
 /*global syles*/
-
+ body h2{
+   color:#1a1a1a
+ }
+ body p{
+   color:#1a1a1a
+ }
   /*helper classes*/
   .no-pad{
     padding:0px !important;
@@ -47,9 +52,9 @@
 
   /*feature styles*/
   .feature{
-      height:30vh;
+      height:35vh;
       border:1px solid black;
-      background-color:yellow;
+      padding-top:3vh;
   }
 
   /*footer styles*/
@@ -74,4 +79,34 @@
   .placeholder-ft{
     width:99%;
     height:99%;
+    margin-top:9vh;
   }
+  /*main shop styles*/
+  .sect{
+    background-color:#ccc
+
+  }
+ .sect#two{
+   background-color:#333
+ }
+ .shop-image{
+   width:60%;
+   margin-left:20%;
+ }
+ .feature h2{
+   text-align:center;
+   margin-top:3vh;
+   margin-bottom:0px;
+ }
+.feature p{
+  margin-top:3vh;
+  width:80%;
+  margin-right:0px;
+  margin-left: 10%;
+}
+#two div h2{
+  color:#f2f2f2;
+}
+#two div p{
+  color:#f2f2f2;
+}
